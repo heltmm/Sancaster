@@ -1,6 +1,17 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#initially-showing").slideToggle();
-    $("#initially-hidden").slideToggle();
+  $("#clickableUs").click(function() {
+    $("#us").slideToggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#clickableEu").click(function() {
+    $("#eu").slideToggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#clickableAu").click(function() {
+    $("#au").slideToggle();
   });
 });

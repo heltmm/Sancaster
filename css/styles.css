@@ -1,12 +1,38 @@
-#initially-hidden {
+.inithidden {
   display: none;
 }
 
-.clickable {
+#clickableUs {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+#clickableUs:hover {
   text-decoration: underline;
+}
+
+#clickableEu {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#clickableEu:hover {
+  text-decoration: underline;
+}
+
+#clickableAu {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#clickableAu:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
