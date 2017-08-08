@@ -33,6 +33,21 @@ h1 {
   text-align: center;
 }
 
+
 img {
   width: 100%;
+}
+.darkLight{
+  background-color: black;
+  color: white;
+}
+.lightDark{
+  background-color: white;
+  color: black;
+}
+body {
+  text-align: center;
+}
+p {
+  font-size: 20px;
 }
