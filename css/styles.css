@@ -51,3 +51,12 @@ body {
 p {
   font-size: 20px;
 }
+p:hover{
+  text-decoration: underline;
+}
+.borderBlack{
+  border: 2px solid black;
+}
+.borderWhite{
+    border: 2px solid white;
+}

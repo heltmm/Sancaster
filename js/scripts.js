@@ -11,10 +11,15 @@ $(document).ready(function() {
   $("button#dark").click(function(){
     $("body").removeClass();
     $("body").addClass("lightDark");
+    $("p").addClass("borderWhite");
 
   });
   $("button#light").click(function(){
     $("body").removeClass();
     $("body").addClass("darkLight");
+    $("p").addClass("borderBlack");
   });
+  $("p").click(function(){
+    $("p").addClass("borderBlack");
+  })
 });
